@@ -11,6 +11,8 @@ const Weather = () => {
 
             </h5>
             <h1 className="oy-2">25&deg;</h1>
+
+            {minmaxTemp(16,29)}
         </div>
         </div>
     );
@@ -21,11 +23,9 @@ function minmaxTemp (min, max){
         <h3>
             <span className="px-4">{min}&deg;</span>
             <span className="px-4">{max}&deg;</span>
-
         </h3>
-    )
-
-}
+    );
+};
 
 
 
